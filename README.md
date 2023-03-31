@@ -32,7 +32,7 @@ Sure, we use AES (Advance Encryption Standard) that's just the most widely used 
 
 Let's do it fast.
 
-1. We need four variables:
+### 1. We need four variables:
 
 | Variable name | Description |
 | --- | --- |
@@ -51,10 +51,11 @@ Three things, before we continue:
   2.  Whatever your decryption path is, it **must** end in `Obsidian` (yeah, I know, what a good programmer I am). For example, if your path is `/home/user/Documents/YOUR_VAULT`, your variable should look something like this: `/home/user/Documents/YOUR_VAULT/Obsidian`. Therefore, I recommend creating an `Obsidian` folder inside `Documents` and pasting your entire vault there. That way, you ensure that your files are still safe if anything happens because, as we say, `one never knows` (Latin joke there).
   3.  The same thing as above applies to the encryption path, although in this case, it **must** end in `EncryptRepo`. (Yeap! Programmer of the year over here.)
 
-2. Run the script with one of this parameters:
 
-	-  `enc`: to encrypt
-	-  `dec`: to decrypt
+ ### 2. Run the script with one of this parameters:
+
+-  `enc`: to encrypt
+-  `dec`: to decrypt
 
   For example:
 
